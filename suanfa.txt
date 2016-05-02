@@ -12,7 +12,7 @@ if(node.resource==demind)
  }
  }
 while(true){
-//
+//Ñ­»·À²À²À²
 for(node){
 if(node[i].resource=current)
 if(node[i]!=last &&!node[i].isUseness)
