@@ -1,0 +1,67 @@
+char demind[];
+node[];
+queue q;
+temp[];
+demind[];
+char current=demind[0];
+node last//记录上一个结点 ，初始化为空
+for(node){
+for(demind){
+if(node.resource==demind)
+ node.isNessary=true;
+ }
+ }
+while(true){
+//
+for(node){
+if(node[i].resource=current)
+if(node[i]!=last &&!node[i].isUseness)
+temp.put(node[i])
+}
+//排序找必须点和最短路
+//遍历temp看是否有必须点
+if(temp==null){
+if(current=demind[1])
+{
+reult="NA";
+return ;
+}
+current.isUseness=true;
+last=q[0];//现在的结点
+ remove(q[0]);//移除第一个结点
+ current=q[0];//倒退一层的结点
+ continue;
+}
+int i;
+for(temp){
+if(temp.isNessary)
+   break;
+if(i>=temp.size)    
+  {//排序temp
+  q.put(temp[0]);
+  }
+  else
+  q.put(temp[i]);
+  q.first.resource=current;
+  if(q.first.destinatio==demind[1]){
+  for(q){
+  if(q[i].isNessary)
+   j++;
+   }
+   if(j==demind.size())
+    for(q)
+    result=q.LinkId;
+     return ;
+  }
+  else{
+  last=q[0];//现在的结点
+  remove(q[0]);//移除第一个结点
+  current=q[0];//倒退一层的结点
+  continue;
+  }
+  }
+  for(demind)
+  if(demind.isUserness)
+  result="NA";
+   return;
+}
